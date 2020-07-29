@@ -1,0 +1,16 @@
+name: FqstaCore
+main: Fqstalph\Main
+version: 1.0
+api: 3.0.0
+author: Fqstalph
+commands:
+  rand:
+    description: Random Tp To Player
+    permission: randomtp.cmd
+  heal:
+    description: Heal Player
+    permission: heal.cmd
+  hub:
+    description: Teleport to Hub
+      
+  

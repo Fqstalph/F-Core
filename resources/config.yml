@@ -1,0 +1,17 @@
+#                            ┑(￣▽￣)┍
+#              >>>>>>>>>>>>>>>>>>>>>>>>>
+#                Fqstalph
+#                         Twitter: @fqstalph
+#                         Website: github.com/Fqstalph
+#               >>>>>>>>>>>>>>>>>>>>>>>>>
+
+JoinMessage: "§a+ {player}"
+QuitMessage: "§c- {player}"
+
+# Random Teleport Message
+TeleportMessage: "§aYou have been teleported to {player}" 
+
+HealMessage: "§aYou have been healed"
+HubMessage: "§eYou have been teleported to the hub."
+
+DeathMessage: "§e{victim} was killed by {killer}"
