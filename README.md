@@ -1,4 +1,12 @@
 # F-Core
 
-Core made for my servers, contains Custom Join and Quit, DeathMessage, Heal Command, RandomTp Command and Hub.
-
+Feaures:
+● CustomJoin
+● CustomQuit
+● CustomDeathMessage
+● /hub
+● /heal
+● /rand 
+● AlwaysSpawn implemented
+● NoFallDamage
+● NoHunger
