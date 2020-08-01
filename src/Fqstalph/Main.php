@@ -12,7 +12,9 @@ use pocketmine\command\CommandSender;
 use pocketmine\command\CommandExecutor;
 use pocketmine\event\player\PlayerLoginEvent;
 use pocketmine\command\ConsoleCommandSender;
+use pocketmine\command\entity\EntityDamageEvent;
 use pocketmine\event\entity\EntityDamageByEntityEvent;
+use pocketmine\event\player\PlayerExhaustEvent;
 use pocketmine\event\player\PlayerDeathEvent;
 
 
@@ -102,4 +104,14 @@ class Main extends PluginBase implements Listener {
             }
         }
     }
+	
+	public function onFallDamage(EntityDamageEvent $event) {
+	      if ($event->getCause() == EntityDamageEvent::CAUSE_FALL) {
+			  $event->setCancelled(true);
+		  }
+	}
+		  
+   public function onHunger(PlayerExhaustEvent $event) {
+        $event->setCancelled(true);
+   }		  
 }
